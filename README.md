@@ -35,4 +35,4 @@ Basic tutorial on how to set up a clean GitHub workflow, intended for game desig
 
 [English here](#githelp-en)
 
-Tutoriel basic expliquant comment setup un environnement de travail GitHub, pensé pour les game designers, les artistes, ou toute personne avec peu d'expérience sur GitHub. Ce tutoriel part du principe que vous connaissez les bases des commandes `push` et `pull`
+Tutoriel basique expliquant comment setup un environnement de travail GitHub, pensé pour les game designers, les artistes, ou toute personne avec peu d'expérience sur GitHub. Ce tutoriel part du principe que vous connaissez les bases des commandes `push` et `pull`
