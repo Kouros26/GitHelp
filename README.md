@@ -9,6 +9,7 @@ Very basic tutorial on how to set up and work in a team with a clean GitHub work
    - [What is a pull request](#what-is-a-pull-request)
    - [Open a pull request](#open-a-pull-request)
    - [Review a pull request](#review-a-pull-request)
+   - [Conversations](#conversations)
   
 ## Setting up a safe repository
 
@@ -32,9 +33,25 @@ Here we are telling GitHub that the protection rule should apply to the branch n
 This one tells GitHub that these rules also apply to the owner of the repository (you) and is very much recommended, just like all the other checked parameters on the image, but feel free to read about the other parameters and add them to your liking.
 
 ## Pull requests
+   - [What is a pull request](#what-is-a-pull-request)
+   - [Open a pull request](#open-a-pull-request)
+   - [Review a pull request](#review-a-pull-request)
+   - [Conversations](#conversations)
+
 ### What is a pull request
+
+A pull request is a way for people to work together on a project. When you're done making changes to your branch, you'll want to send a pull request to your friends. They can see the changes you've made and decide whether or not to include them in the project. That way, the main branch will stay clean, and you won't have a merge conflict every time someone pushes if you're all working on the same branch.
+
 ### Open a pull request
+
+Let's say that you've been working on your branch and that you're ready to incorporate your changes on the main branch.
+Go on GitHub, click on the `Pull requests` tab and click on `New pull request`. Then, change the right-most branch to the branch you were working on like on this example : 
+
+![Branch selection](img/branchselection.PNG)
+
+After that the window will be displaying all the changes you've made and some other infos on your work. Click on `Create pull request`, here you can change the name of your pull request, add a description, etc.
 ### Review a pull request
+### Conversations
 
 
 
