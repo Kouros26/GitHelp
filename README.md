@@ -22,8 +22,6 @@ Setting up a safe repository is very important when collaborating for multiple r
 This tutorial will help you achieve that goal by **protecting the main branch** (i.e. preventing direct pushes to the main branch)
 To protect your main branch, go into your repository's `Settings`, then go to `Branches`, if you don't see the "Branches" tab, it may be because you don't have anything pushed on your repository, so push a small file for the time being and try this step again.
 
-![Branch tab in repository settings](img/settingsbranch.PNG)
-
 After that click on the	`Add branch protection rule`, you will be greeted with a "form" that once completed should look like this :
 
 ![Branch protection](img/branchprotection.PNG)
@@ -49,8 +47,23 @@ Go on GitHub, click on the `Pull requests` tab and click on `New pull request`. 
 
 ![Branch selection](img/branchselection.PNG)
 
-After that the window will be displaying all the changes you've made and some other infos on your work. Click on `Create pull request`, here you can change the name of your pull request, add a description, etc.
+After that the window will be displaying all the changes you've made and some other infos on your work. Click on `Create pull request`, here you can change the name of your pull request, add a description, etc. **Add a reviewer**, and **assign yourself and anyone that worked on this branch with you**.
+
+![Pull Request](img/pullrequest.PNG)
+
+When you're done click on `Create pull request` again and you will access the pull request view : 
+
+![Pull request view](img/pullrequestview.PNG)
+
+You can see the whole history of the branch you were working on and all the actions that have been made on this pull request (e.g. requesting a review, assigning someone...).
+
 ### Review a pull request
+
+If you've been assigned as a reviewer on someone else's pull request you have to follow these steps to make a good review : 
+
+1. Check what has been changed in `Files changed` and commnent on any line that you don't appreciate by clicking on the `+` button when hovering on that line.
+2. When you're done with your review, if everything looks fine, fix the eventual merges, then click on the drop-down menu next to ***Merge pull request*** and select `Squash and merge`, this parameter will regroup all the commits you made in your branch into one commit that will be pushed on the main branch, making it much more clean/readable.
+If some things have to be changed before merging into the main branch  
 ### Conversations
 
 
