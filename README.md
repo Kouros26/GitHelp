@@ -4,6 +4,33 @@
 
 Basic tutorial on how to set up a clean GitHub workflow, intended for game designers, artists, or anyone with little GitHub experience. This tutorial assumes you know the basics of `pushing` and `pulling`.
 
+1. [Setting up a safe repository](##Setting-up-a-safe-repository)
+
+2. [Pull requests](##Pull-requests)
+   - [What is a pull request](###What-is-a-pull-request)
+   - [Open a pull request](###Open-a-pull-request)
+   - [Review a pull request](###Review-a-pull-request)
+  
+## Setting up a safe repository
+
+## Pull requests
+### What is a pull request
+### Open a pull request
+### Review a pull request
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # GitHelp-Fr
 
 [English](#GitHelp-En)
