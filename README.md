@@ -61,10 +61,17 @@ You can see the whole history of the branch you were working on and all the acti
 
 If you've been assigned as a reviewer on someone else's pull request you have to follow these steps to make a good review : 
 
-1. Check what has been changed in `Files changed` and commnent on any line that you don't appreciate by clicking on the `+` button when hovering on that line.
+1. Check what has been changed in `Files changed` and start a [conversation](#conversations) on any line that you don't appreciate by clicking on the `+` button when hovering on that line.
 2. When you're done with your review, if everything looks fine, fix the eventual merges, then click on the drop-down menu next to ***Merge pull request*** and select `Squash and merge`, this parameter will regroup all the commits you made in your branch into one commit that will be pushed on the main branch, making it much more clean/readable.
-If some things have to be changed before merging into the main branch  
+If some things have to be changed before merging into the main branch
+
 ### Conversations
+
+Conversations are an easy and efficient way to communicate or request changes in certain parts of the code, during a review. To start a conversation, click on the `+` button when hovering the line that bothers you. When you are done typing, confirm your message and the result will look like this :
+
+![Conversation](img/conversation.PNG)
+
+This makes the reviewer's and the pull request's author job way easier as you get the problem, its location, and visual support of the problem all in one place ! Don't forget to click on `Resolve conversation` when needed as sometimes GitHub won't let you merge if there's unresolved conversations and the repo's security settings doesn't allow this. 
 
 
 
