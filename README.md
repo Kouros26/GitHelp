@@ -69,7 +69,7 @@ If some things have to be changed before merging into the main branch
 
 Conversations are an easy and efficient way to communicate or request changes in certain parts of the code, during a review. To start a conversation, click on the `+` button when hovering the line that bothers you. When you are done typing, confirm your message and the result will look like this :
 
-![Conversation](img/conversation.PNG)
+![Conversation](img/conversationScreen.PNG)
 
 This makes the reviewer's and the pull request's author job way easier as you get the problem, its location, and visual support of the problem all in one place ! Don't forget to click on `Resolve conversation` when needed as sometimes GitHub won't let you merge if there's unresolved conversations and the repo's security settings doesn't allow this. 
 
